@@ -1,0 +1,108 @@
+:root {
+	font-size: 16px;
+	--body-font:
+		ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+	--body-color: #38383c;
+	--link-color: #5100ff;
+	--font-size-sm: clamp(0.5rem, 0.45vi + 0.39rem, 0.75rem);
+
+	--fade-in-effect: fadeIn 1s;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	font-family: var(--body-font);
+	color: var(--body-color);
+}
+
+* {
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+
+::selection {
+	background: lightblue;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.33;
+}
+
+h1 {
+	font-size: 1.42em;
+}
+
+h2 {
+	font-size: 1.16em;
+}
+
+p {
+	margin: 1.33em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: var(--body-font);
+	color: var(--body-color);
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: var(--body-font);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: var(--link-color);
+}
+
+header,
+main {
+	position: relative;
+	padding: 1rem 0;
+	text-align: center;
+	width: 60vw;
+	min-width: 360px;
+	margin: 0 auto;
+}
+
+main img {
+	width: 100%;
+}
