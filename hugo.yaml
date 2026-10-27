@@ -12,6 +12,9 @@ params:
   cover: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
+  assets:
+    disableHLJS: true
+    favicon: 'https://regardspalestiniens.org/favicon.svg'
 
   # INFO FOR HEADER
   festivalInfoParams:
