@@ -1,0 +1,37 @@
+<details
+	name="program--item"
+	class="program__item"
+	{{
+	if
+	.Params.first
+	}}
+	open
+	{{
+	end
+	}}
+>
+	<summary class="section__title">{{ .Params.program.date }}</summary>
+
+	<div class="section__details">
+		<div class="program--header">
+			<!-- <p class="tag">{{ .Params.program.type }}</p> -->
+
+			<p class="tag">{{ .Params.program.category }}</p>
+			{{ if .Params.program.details }}
+			<p class="details">{{ .Params.program.details }}</p>
+			{{ end }}
+
+			<h1>{{ .Title }}</h1>
+		</div>
+
+		<ul class="venue">
+			<li>
+				<a href="https://cinemapublic.ca/series/regards-palestiniens-retours/"
+					>{{ .Params.venue.name }}</a
+				>
+			</li>
+			<li>{{ .Params.program.date }} &#183; {{ .Params.program.time }}</li>
+		</ul>
+		<div class="content">{{ .Content }}</div>
+	</div>
+</details>
