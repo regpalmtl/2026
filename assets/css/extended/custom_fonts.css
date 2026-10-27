@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
 	font-family: 'Poppins';
 	src: url('/fonts/Poppins-Light.ttf') format('opentype');
 	font-style: normal;
@@ -20,8 +20,8 @@
 	font-family: 'Crimson';
 	src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
 	font-style: normal;
-} */
-
+}
+/* 
 @font-face {
 	font-family: 'Poppins';
 	src: url('/temporary-site/fonts/Poppins-Light.ttf') format('opentype');
@@ -44,4 +44,4 @@
 	font-family: 'Crimson';
 	src: url('/temporary-site/fonts/CrimsonText-Regular.ttf') format('truetype');
 	font-style: normal;
-}
+} */
